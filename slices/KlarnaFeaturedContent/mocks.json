@@ -7,17 +7,17 @@
         "__TYPE__": "ImageContent",
         "origin": {
           "id": "main",
-          "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db",
-          "width": 4380,
-          "height": 2895
+          "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118",
+          "width": 4160,
+          "height": 3120
         },
-        "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?rect=984%2C0%2C2413%2C2895&w=1000&h=1200",
+        "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?rect=780%2C0%2C2600%2C3120&w=1000&h=1200",
         "width": 1000,
         "height": 1200,
         "edit": {
           "zoom": 1,
           "crop": {
-            "x": 984,
+            "x": 780,
             "y": 0
           },
           "background": "transparent"
@@ -26,12 +26,12 @@
       },
       "title": {
         "__TYPE__": "FieldContent",
-        "value": "same",
+        "value": "completely",
         "type": "Text"
       },
       "kicker_title": {
         "__TYPE__": "FieldContent",
-        "value": "guard",
+        "value": "tightly",
         "type": "Text"
       },
       "main_content": {
@@ -40,13 +40,13 @@
           {
             "type": "paragraph",
             "content": {
-              "text": "Cillum minim in aliquip ullamco non dolor."
+              "text": "Tempor commodo commodo in est officia cillum esse ad nostrud consequat consequat."
             }
           },
           {
             "type": "paragraph",
             "content": {
-              "text": "Enim voluptate exercitation aliqua aliqua. Cupidatat velit amet consectetur ipsum laboris et dolor amet ea non amet qui duis."
+              "text": "Incididunt culpa do do irure nisi consequat et non enim nulla."
             }
           }
         ]
@@ -55,12 +55,12 @@
         "__TYPE__": "LinkContent",
         "value": {
           "__TYPE__": "ExternalLink",
-          "url": "https://slicemachine.dev"
+          "url": "http://twitter.com"
         }
       },
       "cta": {
         "__TYPE__": "FieldContent",
-        "value": "did",
+        "value": "shape",
         "type": "Text"
       }
     },
@@ -73,33 +73,9 @@
   },
   {
     "__TYPE__": "SharedSliceContent",
-    "variation": "withButton",
+    "variation": "flipped",
     "primary": {
-      "text": {
-        "__TYPE__": "StructuredTextContent",
-        "value": [
-          {
-            "type": "paragraph",
-            "content": {
-              "text": "Qui aute magna quis tempor cupidatat commodo irure dolore et sit. In amet dolor anim minim est nostrud elit fugiat aliqua labore in ullamco irure do. Sit sit reprehenderit sit."
-            }
-          }
-        ]
-      },
-      "buttonLink": {
-        "__TYPE__": "LinkContent",
-        "value": {
-          "__TYPE__": "ExternalLink",
-          "url": "https://slicemachine.dev"
-        }
-      },
-      "buttonText": {
-        "__TYPE__": "FieldContent",
-        "value": "longer",
-        "type": "Text"
-      },
       "image": {
-        "__TYPE__": "ImageContent",
         "origin": {
           "id": "main",
           "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea",
@@ -117,7 +93,43 @@
           },
           "background": "transparent"
         },
+        "credits": null,
+        "alt": null,
+        "__TYPE__": "ImageContent",
         "thumbnails": {}
+      },
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "support",
+        "type": "Text"
+      },
+      "kicker_title": {
+        "__TYPE__": "FieldContent",
+        "value": "today",
+        "type": "Text"
+      },
+      "main_content": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Lorem et commodo magna."
+            }
+          }
+        ]
+      },
+      "link": {
+        "__TYPE__": "LinkContent",
+        "value": {
+          "__TYPE__": "ExternalLink",
+          "url": "https://prismic.io"
+        }
+      },
+      "cta": {
+        "__TYPE__": "FieldContent",
+        "value": "simple",
+        "type": "Text"
       }
     },
     "items": [

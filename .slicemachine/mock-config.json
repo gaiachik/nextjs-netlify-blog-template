@@ -58,7 +58,7 @@
           }
         }
       },
-      "withButton": {
+      "flipped": {
         "primary": {
           "text": {
             "config": {
@@ -97,9 +97,9 @@
           }
         }
       },
-      "withButton": {
+      "flipped": {
         "primary": {
-          "text": {
+          "main_content": {
             "config": {
               "patternType": "PARAGRAPH",
               "blocks": 1

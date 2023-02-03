@@ -22,7 +22,7 @@ export default Index;
 export async function getStaticProps({ locale, previewData }) {
   const client = createClient({ previewData });
 
-  const page = await client.getByID("Y9xaeBAAACIArujS", { lang: locale });
+  const page = await client.getSingle('homepage', { lang: locale });
   const navigation = await client.getSingle("navigation", { lang: locale });
   const settings = await client.getSingle("settings", { lang: locale });
 

@@ -548,37 +548,7 @@ export type TextWithImageSliceDefault = prismicT.SharedSliceVariation<"default",
  * Primary content in KlarnaFeaturedContent → Primary
  *
  */
-interface TextWithImageSliceWithButtonPrimary {
-    /**
-     * Text field in *KlarnaFeaturedContent → Primary*
-     *
-     * - **Field Type**: Rich Text
-     * - **Placeholder**: *None*
-     * - **API ID Path**: text_with_image.primary.text
-     * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
-     *
-     */
-    text: prismicT.RichTextField;
-    /**
-     * Button Link field in *KlarnaFeaturedContent → Primary*
-     *
-     * - **Field Type**: Link
-     * - **Placeholder**: *None*
-     * - **API ID Path**: text_with_image.primary.buttonLink
-     * - **Documentation**: https://prismic.io/docs/core-concepts/link-content-relationship
-     *
-     */
-    buttonLink: prismicT.LinkField;
-    /**
-     * Button Text field in *KlarnaFeaturedContent → Primary*
-     *
-     * - **Field Type**: Text
-     * - **Placeholder**: *None*
-     * - **API ID Path**: text_with_image.primary.buttonText
-     * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
-     *
-     */
-    buttonText: prismicT.KeyTextField;
+interface TextWithImageSliceFlippedPrimary {
     /**
      * Image field in *KlarnaFeaturedContent → Primary*
      *
@@ -589,21 +559,71 @@ interface TextWithImageSliceWithButtonPrimary {
      *
      */
     image: prismicT.ImageField<never>;
+    /**
+     * Title field in *KlarnaFeaturedContent → Primary*
+     *
+     * - **Field Type**: Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: text_with_image.primary.title
+     * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+     *
+     */
+    title: prismicT.KeyTextField;
+    /**
+     * kicker field in *KlarnaFeaturedContent → Primary*
+     *
+     * - **Field Type**: Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: text_with_image.primary.kicker_title
+     * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+     *
+     */
+    kicker_title: prismicT.KeyTextField;
+    /**
+     * Main content field in *KlarnaFeaturedContent → Primary*
+     *
+     * - **Field Type**: Rich Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: text_with_image.primary.main_content
+     * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+     *
+     */
+    main_content: prismicT.RichTextField;
+    /**
+     * link field in *KlarnaFeaturedContent → Primary*
+     *
+     * - **Field Type**: Link
+     * - **Placeholder**: *None*
+     * - **API ID Path**: text_with_image.primary.link
+     * - **Documentation**: https://prismic.io/docs/core-concepts/link-content-relationship
+     *
+     */
+    link: prismicT.LinkField;
+    /**
+     * CTA field in *KlarnaFeaturedContent → Primary*
+     *
+     * - **Field Type**: Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: text_with_image.primary.cta
+     * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+     *
+     */
+    cta: prismicT.KeyTextField;
 }
 /**
- * With Button variation for KlarnaFeaturedContent Slice
+ * Flipped variation for KlarnaFeaturedContent Slice
  *
- * - **API ID**: `withButton`
+ * - **API ID**: `flipped`
  * - **Description**: `TextWithImage`
  * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
  *
  */
-export type TextWithImageSliceWithButton = prismicT.SharedSliceVariation<"withButton", Simplify<TextWithImageSliceWithButtonPrimary>, never>;
+export type TextWithImageSliceFlipped = prismicT.SharedSliceVariation<"flipped", Simplify<TextWithImageSliceFlippedPrimary>, never>;
 /**
  * Slice variation for *KlarnaFeaturedContent*
  *
  */
-type TextWithImageSliceVariation = TextWithImageSliceDefault | TextWithImageSliceWithButton;
+type TextWithImageSliceVariation = TextWithImageSliceDefault | TextWithImageSliceFlipped;
 /**
  * KlarnaFeaturedContent Shared Slice
  *
@@ -826,6 +846,6 @@ declare module "@prismicio/client" {
         (repositoryNameOrEndpoint: string, options?: prismic.ClientConfig): prismic.Client<AllDocumentTypes>;
     }
     namespace Content {
-        export type { HomepageDocumentData, HomepageDocumentDataSlicesSlice, HomepageDocument, NavigationDocumentData, NavigationDocumentDataLinksItem, NavigationDocument, PageDocumentData, PageDocumentDataSlicesSlice, PageDocument, SettingsDocumentData, SettingsDocument, AllDocumentTypes, HeroSliceDefaultPrimary, HeroSliceDefault, HeroSliceVariation, HeroSlice, ImageSliceDefaultPrimary, ImageSliceDefault, ImageSliceBannerPrimary, ImageSliceBanner, ImageSliceVariation, ImageSlice, ImageCardsSliceDefaultPrimary, ImageCardsSliceDefaultItem, ImageCardsSliceDefault, ImageCardsSliceVariation, ImageCardsSlice, BoldCtaSliceDefaultPrimary, BoldCtaSliceDefault, BoldCtaSliceVariation, BoldCtaSlice, TextWithImageSliceDefaultPrimary, TextWithImageSliceDefault, TextWithImageSliceWithButtonPrimary, TextWithImageSliceWithButton, TextWithImageSliceVariation, TextWithImageSlice, KlarnaMediaCardsGridSliceDefaultPrimary, KlarnaMediaCardsGridSliceDefaultItem, KlarnaMediaCardsGridSliceDefault, KlarnaMediaCardsGridSliceVariation, KlarnaMediaCardsGridSlice, QuoteSliceDefaultPrimary, QuoteSliceDefault, QuoteSliceVariation, QuoteSlice, TextSliceDefaultPrimary, TextSliceDefault, TextSliceTwoColumnsPrimary, TextSliceTwoColumns, TextSliceVariation, TextSlice };
+        export type { HomepageDocumentData, HomepageDocumentDataSlicesSlice, HomepageDocument, NavigationDocumentData, NavigationDocumentDataLinksItem, NavigationDocument, PageDocumentData, PageDocumentDataSlicesSlice, PageDocument, SettingsDocumentData, SettingsDocument, AllDocumentTypes, HeroSliceDefaultPrimary, HeroSliceDefault, HeroSliceVariation, HeroSlice, ImageSliceDefaultPrimary, ImageSliceDefault, ImageSliceBannerPrimary, ImageSliceBanner, ImageSliceVariation, ImageSlice, ImageCardsSliceDefaultPrimary, ImageCardsSliceDefaultItem, ImageCardsSliceDefault, ImageCardsSliceVariation, ImageCardsSlice, BoldCtaSliceDefaultPrimary, BoldCtaSliceDefault, BoldCtaSliceVariation, BoldCtaSlice, TextWithImageSliceDefaultPrimary, TextWithImageSliceDefault, TextWithImageSliceFlippedPrimary, TextWithImageSliceFlipped, TextWithImageSliceVariation, TextWithImageSlice, KlarnaMediaCardsGridSliceDefaultPrimary, KlarnaMediaCardsGridSliceDefaultItem, KlarnaMediaCardsGridSliceDefault, KlarnaMediaCardsGridSliceVariation, KlarnaMediaCardsGridSlice, QuoteSliceDefaultPrimary, QuoteSliceDefault, QuoteSliceVariation, QuoteSlice, TextSliceDefaultPrimary, TextSliceDefault, TextSliceTwoColumnsPrimary, TextSliceTwoColumns, TextSliceVariation, TextSlice };
     }
 }

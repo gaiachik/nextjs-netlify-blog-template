@@ -29,8 +29,8 @@
     }
   },
   {
-    "variation": "withButton",
-    "name": "With Button",
+    "variation": "flipped",
+    "name": "Flipped",
     "slice_type": "text_with_image",
     "items": [],
     "primary": {
