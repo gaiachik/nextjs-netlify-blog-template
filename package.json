@@ -16,8 +16,8 @@
   "dependencies": {
     "@prismicio/client": "^6.7.1",
     "@prismicio/helpers": "^2.3.6",
-    "@prismicio/next": "^1.0.0",
-    "@prismicio/react": "^2.5.0",
+    "@prismicio/next": "^1.0.2",
+    "@prismicio/react": "^2.5.1",
     "@prismicio/slice-simulator-react": "^0.2.3",
     "clsx": "^1.2.1",
     "next": "^13.0.3",

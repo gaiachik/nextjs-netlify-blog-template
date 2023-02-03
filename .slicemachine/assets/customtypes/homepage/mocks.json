@@ -1,0 +1,226 @@
+{
+  "slices": {
+    "__TYPE__": "SliceContentType",
+    "value": [
+      {
+        "key": "text_with_image$c5fe6ea8-be07-46c9-a265-bfd1d32201dd",
+        "name": "text_with_image",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "image": {
+              "__TYPE__": "ImageContent",
+              "origin": {
+                "id": "main",
+                "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9",
+                "width": 4752,
+                "height": 3168
+              },
+              "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?rect=1056%2C0%2C2640%2C3168&w=1000&h=1200",
+              "width": 1000,
+              "height": 1200,
+              "edit": {
+                "zoom": 1,
+                "crop": {
+                  "x": 1056,
+                  "y": 0
+                },
+                "background": "transparent"
+              },
+              "thumbnails": {}
+            },
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "thousand",
+              "type": "Text"
+            },
+            "kicker_title": {
+              "__TYPE__": "FieldContent",
+              "value": "protection",
+              "type": "Text"
+            },
+            "main_content": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Adipisicing reprehenderit labore cupidatat nulla eiusmod nostrud magna adipisicing dolor deserunt quis."
+                  }
+                }
+              ]
+            },
+            "link": {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "__TYPE__": "ExternalLink",
+                "url": "http://google.com"
+              }
+            },
+            "cta": {
+              "__TYPE__": "FieldContent",
+              "value": "science",
+              "type": "Text"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": []
+            }
+          ]
+        }
+      },
+      {
+        "key": "klarna_media_cards_grid$3a387eb8-ed0c-47eb-ae46-3c301a257a54",
+        "name": "klarna_media_cards_grid",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "heading1",
+                  "content": {
+                    "text": "Fierce"
+                  }
+                }
+              ]
+            },
+            "description": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Aute deserunt eiusmod in non. Est excepteur reprehenderit incididunt mollit anim amet."
+                  }
+                }
+              ]
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "imagecard",
+                  {
+                    "__TYPE__": "ImageContent",
+                    "origin": {
+                      "id": "main",
+                      "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b",
+                      "width": 3560,
+                      "height": 5340
+                    },
+                    "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b",
+                    "width": 3560,
+                    "height": 5340,
+                    "edit": {
+                      "zoom": 1,
+                      "crop": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "background": "transparent"
+                    },
+                    "thumbnails": {}
+                  }
+                ],
+                [
+                  "captiontitle",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "purpose",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "tag",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "aside",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "link",
+                  {
+                    "__TYPE__": "LinkContent",
+                    "value": {
+                      "__TYPE__": "ExternalLink",
+                      "url": "http://twitter.com"
+                    }
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "hero$5eeaa424-0cb8-4fb4-87bc-0fd01065847f",
+        "name": "hero",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "text": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Ex est amet sunt do non Lorem enim ut Lorem proident aute ex fugiat laboris consectetur. Ad eu cillum labore cupidatat enim magna sint duis."
+                  }
+                }
+              ]
+            },
+            "buttonLink": {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "__TYPE__": "ExternalLink",
+                "url": "https://prismic.io"
+              }
+            },
+            "buttonText": {
+              "__TYPE__": "FieldContent",
+              "value": "oil",
+              "type": "Text"
+            },
+            "backgroundImage": {
+              "__TYPE__": "ImageContent",
+              "origin": {
+                "id": "main",
+                "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f",
+                "width": 6597,
+                "height": 4398
+              },
+              "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f",
+              "width": 6597,
+              "height": 4398,
+              "edit": {
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                },
+                "background": "transparent"
+              },
+              "thumbnails": {}
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": []
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

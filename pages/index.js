@@ -23,9 +23,6 @@ export async function getStaticProps({ locale, previewData }) {
   const client = createClient({ previewData });
 
   const page = await client.getByID("Y9xaeBAAACIArujS", { lang: locale });
-  console.log(`🍀🍀🍀🍀🍀🍀🍀`)
-  console.log(JSON.stringify(page, null,2))
-  console.log(`🍀🍀🍀🍀🍀🍀🍀`)
   const navigation = await client.getSingle("navigation", { lang: locale });
   const settings = await client.getSingle("settings", { lang: locale });
 
