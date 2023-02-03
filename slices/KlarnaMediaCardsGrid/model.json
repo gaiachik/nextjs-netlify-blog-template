@@ -1,0 +1,66 @@
+{
+  "id": "klarna_media_cards_grid",
+  "type": "SharedSlice",
+  "name": "KlarnaMediaCardsGrid",
+  "description": "KlarnaMediaCardsGrid",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "KlarnaMediaCardsGrid",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your feature"
+          }
+        }
+      },
+      "items": {
+        "imagecard": {
+          "type": "Image",
+          "config": {
+            "label": "imageCard",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "captiontitle": {
+          "type": "Text",
+          "config": {
+            "label": "captionTitle",
+            "placeholder": ""
+          }
+        },
+        "tag": {
+          "type": "Text",
+          "config": {
+            "label": "tag",
+            "placeholder": ""
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}
